@@ -30,15 +30,11 @@ const Main = () => {
       <div className="nav">
         <div className="social">
           <a
-            href="https://github.com/Kdarshan2005/Kdarshan2005_4738C354E794E5282224479FE8C5930B.git"
+            href="https://github.com/Darshan491/Atomic-AI.git"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={assets.github_icon}
-              alt="GitHub"
-              style={{ width: "44px", height: "44px" }}
-            />
+            
           </a>
         </div>
         <p>Atomic AI</p>
@@ -54,8 +50,8 @@ const Main = () => {
           <>
             <div className="greet">
               <p>
-                <span>Hi</span><br></br>
-                <span>How Can I Help You</span>
+                <span>Atomic AI</span><br></br>
+                <span>An Academic doubts Solving website</span>
               </p>
             </div>
           </>
@@ -66,7 +62,7 @@ const Main = () => {
               <p>{recentPrompt}</p>
             </div>
             <div className="result-data">
-              <img src={assets.gemini_icon} alt="" />
+              
               {loading ? (
                 <div className="loader">
                   <hr />
@@ -91,8 +87,7 @@ const Main = () => {
               onKeyDown={handleKeyDown}
             />
             <div>
-              <img src={assets.gallery_icon} alt="" />
-              <img src={assets.mic_icon} alt="" />
+              
               {input ? (
                 <img onClick={() => onSent()} src={assets.send_icon} alt="" />
               ) : null}
@@ -102,7 +97,7 @@ const Main = () => {
             <button onClick={newChat} className="clear-btn">Clear Conversation</button>
           </div>
           <p className="bottom-info">
-          Nobody is Perfect. Even Our Insane AI can make mistakes. Check important info
+          Nobody is Perfect. Even Our Atomic AI can make mistakes. Check important info
           </p>
         </div>
       </div>
